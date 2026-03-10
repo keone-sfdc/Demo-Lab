@@ -1,0 +1,107 @@
+# =============================================================================
+# Salesforce / SFDX
+# =============================================================================
+
+# CLI cache and local metadata (machine-specific, causes source tracking issues)
+.sf/
+.sfdx/
+.localdevserver/
+.localdev
+deploy-options.json
+
+# LWC VSCode autocomplete (generated)
+**/lwc/jsconfig.json
+
+# LWC Jest coverage
+coverage/
+*.lcov
+
+# Salesforce Analyzer / Code Analyzer results
+sca-results.csv
+sfca_results.json
+
+# ApexPMD cache
+.pmdCache
+
+# =============================================================================
+# Node.js / npm
+# =============================================================================
+
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ESLint cache
+.eslintcache
+
+# Optional npm cache
+.npm
+
+# Yarn
+.yarn-integrity
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# =============================================================================
+# Environment & secrets
+# =============================================================================
+
+.env
+.env.*
+!.env.example
+
+# =============================================================================
+# Python (Functions, scripts)
+# =============================================================================
+
+**/__pycache__/
+**/.venv/
+**/venv/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# =============================================================================
+# IDE & editors
+# =============================================================================
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode (uncomment if you prefer personal workspace settings)
+# .vscode/
+
+# =============================================================================
+# OS files
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
