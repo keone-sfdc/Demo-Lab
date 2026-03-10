@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Contact.ai_CIMetric1__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>SDO-Scheduler-Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>SDO_Contact_Default</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>60.0</version>
+</Package>
