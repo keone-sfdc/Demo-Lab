@@ -1,0 +1,25 @@
+<template>
+    <lightning-card icon-name={titleIcon} title={headerTitle}>
+        <div slot="actions">
+            <div class="slds-no-flex">
+                <lightning-button-icon icon-name="utility:down" variant="border-filled" alternative-text="More" title="More"></lightning-button-icon>
+            </div>
+        </div>
+        <lightning-layout multiple-rows="false">
+            <lightning-layout-item padding="horizontal-medium" size="12">
+                <lightning-layout multiple-rows="true">
+                    <lightning-layout-item size="12">
+                        <div class="slds-text-title_bold">{title}</div>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="12">
+                        
+                        <div class="slds-text-heading_large">
+                            {metricValue}
+                        </div>
+                        
+                    </lightning-layout-item>
+                </lightning-layout>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

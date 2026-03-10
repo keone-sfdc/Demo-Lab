@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Universal Calculated Insights KB</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__HomePage,lightning__RecordPage">
+            <property name="headerTitle" type="String" default="Calculated Insights" label="Header Title" />
+            <property name="titleIcon" type="String" default="standard:calculated_insights" label="Icon Name" />
+            <property name="title" type="String" default="Propensity to Churn" label="Metric Label" />
+            
+            <property name="metric" type="String" default="Name" label="Field API Name (e.g., Amount)" description="Enter the API Name of the field you want to display."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

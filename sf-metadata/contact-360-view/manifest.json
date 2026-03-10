@@ -1,0 +1,24 @@
+{
+    "id": "contact-360-view",
+    "label": "Contact 360 View",
+    "description": "360 View of a Contact Record",
+    "metadataPath": "force-app/main/default",
+    "icon": "utility:marketing",
+    "category": ["Sales", "Marketing"],
+    "estimatedDuration": "~2 min",
+    "order": 1,
+    "version": "59.0",
+    "pre": [
+      {
+        "type": "script",
+        "path": "scripts/deploy/pre-setup.js",
+        "timeout": 240
+      }
+    ],
+    "post": [
+      {
+        "type": "script",
+        "path": "scripts/deploy/post-setup.js"
+      }
+    ]
+  }
